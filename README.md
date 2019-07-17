@@ -1,0 +1,2 @@
+# phase_plane
+Plots trajectories in a linear system. Takes in a matrix, A, of a linear system and a pair of co-ordinates to use as initial conditions. It plots a vector field for the system, indicated by arrows, and nullclines indicated by thin red dashed lines. It then plots a forward trajectory in red and a backward trajectory in green from the initial condition in blue. Limitation on computation time is set to 400 steps, upon reaching 400 the program will assume the trajectory does not move any further.
